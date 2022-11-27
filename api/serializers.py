@@ -6,7 +6,7 @@ from django.utils import timezone
 
 class BookSerializer(serializers.ModelSerializer):
     """
-    本モデルのシリアライザ　ModelSerializer編
+    本モデルのシリアライザModelSerializer編
     JSONの出入力がモデルのフィールド定義がもとになる場合に使う   
     """
     class Meta:
